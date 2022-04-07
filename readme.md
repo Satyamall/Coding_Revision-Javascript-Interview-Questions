@@ -155,7 +155,7 @@ let getData = {
 getData.showArg(1,2,3); // output {0:1,1:2,2:3}
 ```
 Output:
-
+![regular](https://user-images.githubusercontent.com/80479635/162154540-b7bc1dc7-d5d0-4283-bb35-a073002f3af0.png)
 
 Arrow Function:
 ```js
@@ -167,6 +167,7 @@ let getData = {
 getData.showArg(1,2,3); // Uncaught ReferenceError: arguments is not defined
 ```
 Output:
+![arrow](https://user-images.githubusercontent.com/80479635/162154586-7a664379-f3ba-4e10-b6c8-c215925e0e87.png)
 
 3. **Use of this keyword:**
 unlike Regular functions, arrow function does not have their own "this" keyword.
@@ -213,6 +214,8 @@ Arrow function:
 let add = (x, y) => console.log(x + y);
 new add(2,3);
 ```
+output:
+![arrow2](https://user-images.githubusercontent.com/80479635/162154661-a49eb0f6-c2ae-46ad-ba38-f4bd0b9d1d76.png)
 
 5. **No duplicate named parameters:**
 Arrow functions can never have duplicate named parameters, whether in strict or non-strict mode.
